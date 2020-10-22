@@ -21,7 +21,13 @@ setx TM4J_API_KEY "YOUR_KEY_HERE"
 
 ## Usage
 
-Configure the `testng.xml` with whatever tests need to be run &  then execute from the IDE or the command line (—the listeners are configured in `BaseTest` for any child tests to extend & can be run easily from the IDE, but are also integrated in the TestNG configuration file otherwise.)
+Integrating TM4J is easy! Just add a separate `@TestData` annotation with the relevant TM4J key to each `@Test` that needs to be added to the automated test cycle.
+
+```
+@TestData(key="QAT-T1")
+```
+
+Configure the `testng.xml` with whatever tests need to be run & then execute from the IDE or the command line (—the listeners are configured in `BaseTest` for any child tests to extend & can be run easily from the IDE, but are also integrated in the TestNG configuration file otherwise.)
 
 ## Sample Output
 
