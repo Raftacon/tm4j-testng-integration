@@ -9,7 +9,7 @@ This proof-of-concept uses two different dedicated libraries (besides TestNG) ma
 1. [SendGrid's HTTP client for Java](https://github.com/sendgrid/java-http-client)
 2. [antonsjava's json library](https://github.com/antonsjava/json)
 
-(As well as inspiration for the custom `TestData` annotation from [letsrook's tm4j-hooks](tm4j-hooks) library—thanks, Raghu!)
+(As well as inspiration for the custom `TestData` annotation from [letsrokk's tm4j-hooks](https://github.com/letsrokk/tm4j-hooks) library—thanks, Raghu!)
 
 A TM4J-provided API key is also required to be configured as an environment variable for this to work as-is. An API key can be obtained pretty easily for a given project in JIRA by navigating to your profile and clicking the `Test Management for JIRA API Keys` option.
 
